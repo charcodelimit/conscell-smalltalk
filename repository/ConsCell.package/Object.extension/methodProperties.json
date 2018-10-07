@@ -1,12 +1,14 @@
 {
 	"instance" : {
+		"printStringForLisp:" : "chr 10/6/2018 16:57",
 		"printOn:depth:forLisp:level:maxLevel:length:maxLength:done:cycles:" : "spfa 11/18/2009 18:15",
 		"isConsCell" : "spfa 11/18/2009 18:15",
 		"cdr" : "spfa 11/18/2009 18:15",
 		"printOn:forLisp:" : "spfa 11/18/2009 18:15",
 		"inQuotedCons" : "spfa 11/18/2009 18:15",
+		"printStringForLisp:limitedTo:" : "spfa 11/18/2009 18:15",
 		"inCons" : "spfa 11/18/2009 18:15",
-		"asCons" : "spfa 11/18/2009 18:15"
+		"asCons" : "chr 10/7/2018 17:39"
 	},
 	"class" : { }
 }
