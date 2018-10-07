@@ -1,0 +1,19 @@
+language: smalltalk
+sudo: false
+
+# Select operating system(s)
+os:
+  - linux
+
+# Select compatible Smalltalk image(s)
+smalltalk:
+  - Squeak-trunk
+  - Squeak-5.1
+
+  - Pharo-stable
+  - Pharo-7.0
+  - Pharo-6.1
+
+  - Pharo64-stable
+  - Pharo64-7.0
+  - Pharo64-6.1
