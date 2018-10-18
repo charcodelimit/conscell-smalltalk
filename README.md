@@ -1,4 +1,4 @@
-# ConsCell [![Build Status][travis_b]][travis_url]
+# ConsCell [![Build Status][travis_b]][travis_url] ] [![Coverage Status][coveralls_b]][coveralls_url]
 
 The [cons
 cell](http://www.lispworks.com/documentation/lw70/CLHS/Body/26_glo_c.htm#cons)
@@ -45,3 +45,5 @@ ConsCell is licensed under the [MIT License](https://opensource.org/licenses/MIT
 
 [travis_b]: https://travis-ci.org/charcodelimit/conscell-smalltalk.svg?branch=master
 [travis_url]: https://travis-ci.org/charcodelimit/conscell-smalltalk
+[coveralls_b]: https://coveralls.io/repos/github/charcodelimit/conscell-smalltalk/badge.svg?branch=master
+[coveralls_url]: https://coveralls.io/github/charcodelimit/conscell-smalltalk?branch=master

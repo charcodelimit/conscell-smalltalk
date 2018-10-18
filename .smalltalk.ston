@@ -6,5 +6,10 @@ SmalltalkCISpec {
       #platforms : [ #squeak, #pharo ],
       #load : [ 'tests' ]
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #classes : [ #ConsCell, #'ConsCell class' ]
+    }
+  }
 }
