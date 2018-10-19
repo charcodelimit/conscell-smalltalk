@@ -1,7 +1,12 @@
-testing
+comparing
 hash
 	"Hash is reimplemented because = is implemented."
 
-	self isCircular ifTrue: [^ self withCut hash].
-
-	^ car hash bitXor: cdr hash.
+	| head tail |
+	head := (car isConsCell and: [ car isCircular ])
+		ifTrue: [ car withCut ]
+		ifFalse: [ car ].
+	tail := (cdr isConsCell and: [cdr isCircular])
+		ifTrue: [ cdr withCut ]
+		ifFalse: [ cdr ].
+	^ head hash bitXor: tail hash

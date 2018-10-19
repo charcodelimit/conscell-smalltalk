@@ -3,7 +3,7 @@ testLength
 
 	| c |
 
-	self assert: #(1 2 3) asCons length = 3.
+	self assert: #(1 2 3) asCons length equals: 3.
 	self should: [(#(1 2) asCons append: 3) length] raise: Error.
 	
 	c := #(1 2) asCons.

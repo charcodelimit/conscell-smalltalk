@@ -1,4 +1,4 @@
-testing
+accessing
 storeCycles: anIdentityDictionary with: anIdentitySet
 
 	(anIdentitySet includes: self)

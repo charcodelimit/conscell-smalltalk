@@ -1,4 +1,4 @@
-testing
+accessing
 length: aNumber with: anIdentitySet 
 
 	cdr isNil ifTrue: [^ aNumber].

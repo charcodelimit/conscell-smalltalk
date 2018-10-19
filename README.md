@@ -1,4 +1,4 @@
-# ConsCell [![Build Status][travis_b]][travis_url] ] [![Coverage Status][coveralls_b]][coveralls_url]
+# ConsCell [![Build Status][travis_b]][travis_url] [![Coverage Status][coveralls_b]][coveralls_url]
 
 The [cons
 cell](http://www.lispworks.com/documentation/lw70/CLHS/Body/26_glo_c.htm#cons)

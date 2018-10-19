@@ -1,4 +1,4 @@
-testing
+comparing
 = aConsCell
 
 	self isCircular ifTrue: 

@@ -1,4 +1,4 @@
-tests
+tests - iteration
 testCellsDo
 
 	| list sum |

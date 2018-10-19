@@ -1,5 +1,5 @@
 coverage
 selectorsToBeIgnored
-	| private |
-	private := #(#printOn:).
-	^ super selectorsToBeIgnored , private
+	| printing |
+	printing := #(#printOn: #printOn:forLisp: #printOn:depth:forLisp:level:maxLevel:length:maxLength: #done:cycles: #fullPrintStringForLisp:).
+	^ super selectorsToBeIgnored , printing
