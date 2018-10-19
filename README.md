@@ -7,7 +7,7 @@ implementation of [LispKit](http://map.squeak.org/package/656e63b6-3322-45cf-8e0
 ## Requires
 
 * [Squeak](http://www.squeak.org) 5.1,5.2a
-* [Pharo](http://pharo.org/) 6.1
+* [Pharo](http://pharo.org/) 6.1,7.0
 
 ## Installing
 
