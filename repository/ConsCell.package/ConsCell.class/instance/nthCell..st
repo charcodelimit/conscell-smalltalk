@@ -1,6 +1,8 @@
 accessing
 nthCell: n
-
-	n isZero ifTrue: [^ self].
-	n = 1 ifTrue: [^ cdr].
+	n isZero
+		ifTrue: [ ^ self ].
+	cdr ifNil: [ ^ nil ].
+	n = 1
+		ifTrue: [ ^ cdr ].
 	^ cdr nthCell: n - 1

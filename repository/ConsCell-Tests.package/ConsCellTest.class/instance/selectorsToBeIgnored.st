@@ -1,5 +1,6 @@
 coverage
 selectorsToBeIgnored
-	| printing |
+	| printing special |
 	printing := #(#printOn: #printOn:forLisp: #printOn:depth:forLisp:level:maxLevel:length:maxLength: #done:cycles: #fullPrintStringForLisp:).
-	^ super selectorsToBeIgnored , printing
+	special := #(#storeOn: #storeTopFormsIn: #safeStoreTopFormsIn:).
+	^ super selectorsToBeIgnored , printing , special

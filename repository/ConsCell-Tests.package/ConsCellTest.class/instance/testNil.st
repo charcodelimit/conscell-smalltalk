@@ -4,3 +4,4 @@ testNil
 	self assert: nil cdr equals: nil.
 	self assert: nil arrayForm equals: #().
 	self assert: nil topForms equals: #().
+	self assert: nil safeTopForms equals: #()
